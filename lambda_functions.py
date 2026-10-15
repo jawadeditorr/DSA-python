@@ -6,6 +6,8 @@ print(add(45,89))
 arr = [10,59,24,64,26,73,75]
 even = filter(lambda arr:arr%2==0, arr)
 print(list(even))
+more_than_five = filter(lambda x:x>50, arr)
+print(list(more_than_five))
 
 #map - applies a function to all items in a list
 print(list(map(lambda x:x**2,arr)))
